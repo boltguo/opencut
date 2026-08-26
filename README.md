@@ -20,8 +20,9 @@ Open <http://localhost:3000>. The optional Freesound and Upstash variables in
 
 ```bash
 pnpm dev          # local Next.js development server
-pnpm build        # production Next.js build
-pnpm build:worker # Cloudflare Worker build
+pnpm build        # production Cloudflare Worker build
+pnpm build:next   # production Next.js build only
+pnpm build:worker # alias for the Cloudflare Worker build
 pnpm test         # test suite
 pnpm lint         # Biome checks
 pnpm typecheck    # TypeScript checks

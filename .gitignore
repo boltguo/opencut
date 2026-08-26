@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.open-next/
+.wrangler/
+.font-cache/
+*.tsbuildinfo
+
+.env*
+!*.env.example
